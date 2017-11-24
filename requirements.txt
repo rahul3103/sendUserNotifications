@@ -1,0 +1,6 @@
+flask
+psycopg2
+peewee
+uwsgi
+flask_cors
+requests
