@@ -26,9 +26,9 @@ def index():
 @app.route('/send/<userId>')
 def send(userId):
     header = {"Content-Type": "application/json; charset=utf-8",
-          "Authorization": "Basic NzNlYWRlYmYtNTI2ZS00NGI1LWI5MjktOTY4NTFkNzFlZjVk"}
+          "Authorization": "Basic NTI3MWIyYWQtYzBlNC00M2Y3LTllZTYtMjRhZGQzOGUyODkz"}
 
-    payload = {"app_id": "8ad4022a-609b-4ab5-840a-1e4b40cb72ef",
+    payload = {"app_id": "9449bbc6-71e0-430a-b351-f3f31a127091",
            "include_player_ids": [userId],
            "contents": {"en": "Hey notifications"}}
 
